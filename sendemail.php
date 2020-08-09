@@ -9,7 +9,7 @@ $subject = 'This is our test email';
 $message = '<h1>Hi there.</h1><p>Thanks for testing</p>';
 //Headers
 $headers = "From:".$from;
-$headers .= "Reply: replyto@monu642858@gmail.com\r\n";
+$headers .= "Reply:".$from;
 $headers .= "Content-type: text/html\r\n";
 
 // Send email
